@@ -8,7 +8,64 @@
     <link rel="stylesheet" href="css/staff.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="row">
+            <h3 class="heading-3">Add new staff</h3>
+            <div class="add-staff-area">
+                <div class="form-group">
+                    <label for="fullname">Fullname</label>
+                    <input class="form-control" type="text" id="fullname" name="fullname">
+                </div>
+                <div class="form-group">
+                    <label for="avatar">Avatar</label>
+                    <input class="form-control" type="text" id="avatar" name="avatar">
+                </div>
+                <div class="form-group">
+                    <label for="dob">Dob</label>
+                    <input class="form-control" type="date" id="dob" name="dob">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" type="email" id="email" name="email">
+                </div>
+                <div class="form-group">
+                    <label for="salary">Salary</label>
+                    <input class="form-control" type="number" id="salary" name="salary" min="1000000">
+                </div>
+                <div class="form-group">
+                    <label for="department">Department</label>
+                    <!-- <input class="form-control" type="text" id="department" name="department"> -->
+                    <select name="department" id="department" class="form-control">
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="department"></label>
+                    <button class="btn btn-primary btn-lg" onclick="save()">Save</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h3 class="heading-3">Display all staffs</h3>
+            <div>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>#ID</th>
+                            <th>Fullname</th>
+                            <th>Avatar</th>
+                            <th>DoB</th>
+                            <th>Email</th>
+                            <th>Salary</th>
+                            <th>Department</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbStaff">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
 
     <script src="script/staff.js"></script>
 </body>
