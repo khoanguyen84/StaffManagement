@@ -9,3 +9,4 @@
 + step 3: trong phần source chọn branch (master/main)
 + step 4: click vào nút save
 5. Tìm hiểu và sử dụng Local Storage
+6. Sử faker avatar trên https://pravatar.cc/ (sử dụng tính chất trong khu vực Direct Image ID)
