@@ -81,6 +81,17 @@
     border-color: #bd2130;
 }
 
+.btn-warning{
+    color: #212529;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+.btn-warning:hover{
+    color: #212529;
+    background-color: #e0a800;
+    border-color: #d39e00;
+}
+
 .table{
     width: 100%;
 }
@@ -126,4 +137,16 @@
 }
 .text-right{
     text-align: right;
+}
+
+.d-none{
+    display: none;
+}
+
+.input-full{
+    padding: 5px 0px;
+    width: 95%;
+    border-radius: 2px;
+    border: none;
+    outline: none;
 }
